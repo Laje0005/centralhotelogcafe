@@ -1,0 +1,117 @@
+body {
+  background-color: #e5e3db;
+}
+
+.boks1 {
+  background-color: #3b4b46;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.boks2 {
+  background-color: #3b4b46;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.boks3 {
+  background-color: #3b4b46;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 2.5rem;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  color: white;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+#area {
+  width: 100%;
+}
+#hotel {
+  width: 100%;
+}
+#cafe {
+  width: 100%;
+}
+.tekst1 {
+  grid-column: 2 / 2;
+  margin: 5rem;
+  font-size: 18px;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2rem;
+  color: white;
+}
+.tekst2 {
+  grid-column: 1 / 2;
+  margin: 5rem;
+  font-size: 18px;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2rem;
+  color: white;
+}
+.tekst3 {
+  grid-column: 2 / 2;
+  margin: 5rem;
+  font-size: 18px;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2rem;
+  color: white;
+}
+#overskrift {
+  padding-bottom: 4rem;
+}
+#overskrift2 {
+  padding-bottom: 4rem;
+}
+#overskrift3 {
+  padding-bottom: 4rem;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+}
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+}
+.grid_1-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
