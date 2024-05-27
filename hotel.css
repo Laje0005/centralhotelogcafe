@@ -1,0 +1,187 @@
+body,
+main,
+html {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+p {
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.box1 {
+  background-color: var(--secondary);
+  width: 100%;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  margin-bottom: 5rem;
+}
+
+.box2 {
+  background-color: var(--secondary);
+  width: 100%;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.grid_1 {
+  margin: 1rem;
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+
+#hotel {
+  width: 100%;
+}
+
+.grid_2 {
+  margin: 1rem;
+  text-align: justify;
+  padding-top: 2rem;
+}
+
+#seng {
+  width: 100%;
+}
+
+.check-in {
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  align-items: center;
+  text-align: center;
+}
+
+.k {
+  text-align: center;
+}
+
+.tekst1 {
+  padding: 2rem 0 2rem 0;
+  line-height: 1.5rem;
+  color: white;
+}
+
+#overskrift {
+  padding-bottom: 2rem;
+}
+
+.tekst2 {
+  padding: 2rem 0 2rem 0;
+  line-height: 1.5rem;
+  color: white;
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+div#slider {
+  overflow: hidden;
+}
+div#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+/* ----------------------------DESKTOP---------------------------- */
+
+@media (min-width: 768px) {
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0;
+    margin: 0 0 10rem 0;
+    align-items: center;
+  }
+
+  #overskrift {
+    padding-bottom: 4rem;
+  }
+
+  .box1 {
+    margin-top: 2rem;
+  }
+
+  .box2 {
+    margin-bottom: 2rem;
+  }
+
+  .tekst1 {
+    grid-column: 1 / 2;
+    margin: 5rem;
+    font-size: 24px;
+    font-family: "josefin-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
+    color: white;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  #overskrift {
+    padding-bottom: 4rem;
+  }
+
+  .tekst2 {
+    grid-column: 2;
+    margin: 5rem;
+    font-size: 24px;
+    font-family: "josefin-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
+    color: white;
+  }
+}
