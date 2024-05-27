@@ -15,10 +15,6 @@ body {
   background-color: var(--primary);
 }
 
-main {
-  padding: 1.5rem;
-}
-
 /* ----------------------------HEADER / BURGERMENU---------------------------- */
 
 #logo {
@@ -33,7 +29,6 @@ main {
 
 .header {
   background-color: var(--primary);
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: sticky;
   width: 100%;
   z-index: 3;
@@ -142,6 +137,7 @@ footer {
 .footer_tekst {
   padding: 2rem 0 2rem 0;
   text-align: center;
+  color: black;
 }
 
 #footer_overskrift {
