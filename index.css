@@ -19,6 +19,10 @@ p {
   font-family: "josefin-sans", sans-serif;
 }
 
+footer p {
+  color: black;
+}
+
 .box1 {
   background-color: var(--secondary);
   width: 100%;
