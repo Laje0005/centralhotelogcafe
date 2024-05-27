@@ -23,9 +23,10 @@ footer p {
   color: black;
 }
 
-.box1 {
+.box01 {
   background-color: var(--secondary);
   width: 100%;
+  padding-top: 10px;
 }
 
 .box2 {
