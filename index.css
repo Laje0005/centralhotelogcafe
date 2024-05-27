@@ -29,7 +29,7 @@ footer p {
   padding-top: 10px;
 }
 
-.box2 {
+.box02 {
   background-color: var(--secondary);
   width: 100%;
   padding: 10px;
@@ -39,7 +39,7 @@ footer p {
   align-items: center;
 }
 
-.box3 {
+.box03 {
   background-color: var(--secondary);
   width: 100%;
   padding: 10px;
@@ -70,12 +70,12 @@ footer p {
     height: auto;
   }
 
-  .box1 {
+  .box01 {
     height: auto;
     padding: 10px;
   }
 
-  .box2 {
+  .box02 {
     margin-top: 30px;
     height: auto;
   }
@@ -105,7 +105,7 @@ footer p {
     box-sizing: border-box;
   }
 
-  .box3 {
+  .box03 {
     margin-top: 30px;
     height: auto;
   }
@@ -118,7 +118,7 @@ footer p {
     grid-template-columns: 1fr 1fr;
   }
 
-  .box1 {
+  .box01 {
     height: 700px;
     padding: 30px;
   }
@@ -131,7 +131,7 @@ footer p {
     margin-right: auto;
   }
 
-  .box2 {
+  .box02 {
     width: 1480px;
     height: auto;
     margin-top: 30px;
@@ -165,7 +165,7 @@ footer p {
     text-align: center;
   }
 
-  .box3 {
+  .box03 {
     height: auto;
     margin-top: 30px;
   }
