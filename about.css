@@ -47,6 +47,9 @@ p {
   font-weight: 300;
   font-style: italic;
 }
+footer p {
+  color: black;
+}
 #area {
   width: 100%;
 }
