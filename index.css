@@ -29,7 +29,7 @@ footer p {
   padding-top: 10px;
 }
 
-.box02 {
+.box22 {
   background-color: var(--secondary);
   width: 100%;
   padding: 10px;
@@ -39,7 +39,7 @@ footer p {
   align-items: center;
 }
 
-.box03 {
+.box33 {
   background-color: var(--secondary);
   width: 100%;
   padding: 10px;
@@ -75,7 +75,7 @@ footer p {
     padding: 10px;
   }
 
-  .box02 {
+  .box22 {
     margin-top: 30px;
     height: auto;
   }
@@ -105,7 +105,7 @@ footer p {
     box-sizing: border-box;
   }
 
-  .box03 {
+  .box33 {
     margin-top: 30px;
     height: auto;
   }
@@ -131,7 +131,7 @@ footer p {
     margin-right: auto;
   }
 
-  .box02 {
+  .box22 {
     width: 1480px;
     height: auto;
     margin-top: 30px;
@@ -165,7 +165,7 @@ footer p {
     text-align: center;
   }
 
-  .box03 {
+  .box33 {
     height: auto;
     margin-top: 30px;
   }
