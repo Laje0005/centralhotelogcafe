@@ -44,8 +44,11 @@ h3 {
 p {
   color: white;
   font-family: "josefin-sans", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-style: italic;
+}
+footer p {
+  color: black;
 }
 #area {
   width: 100%;
@@ -114,4 +117,52 @@ p {
 img {
   width: 100px;
   height: auto;
+}
+@media (max-width: 768px) {
+  .tekst1,
+  .tekst2,
+  .tekst3 {
+    margin: 1rem;
+    font-size: 16px;
+  }
+
+  .grid_1-1,
+  .grid_1-2,
+  .grid_1-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .boks1,
+  .boks2,
+  .boks3 {
+    margin-bottom: 40px;
+  }
+
+  img {
+    width: 80px;
+  }
+
+  h1 {
+    line-height: 2rem;
+    font-size: 24px;
+  }
+
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+  #overskrift {
+    padding-bottom: 2rem;
+  }
+  #overskrift2 {
+    padding-bottom: 2rem;
+  }
+  #overskrift3 {
+    padding-bottom: 2rem;
+  }
 }
