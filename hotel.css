@@ -33,9 +33,13 @@ p {
 }
 
 .grid_1 {
-  margin: 1rem;
+  margin: 0 1rem 1rem 1rem;
   text-align: justify;
   padding-bottom: 2rem;
+}
+
+.hotelbillede {
+  margin: 10%;
 }
 
 #hotel {
@@ -106,12 +110,13 @@ p {
     left: -300%;
   }
   100% {
-    left: -400%;
+    left: -0%;
   }
 }
 
 div#slider {
   overflow: hidden;
+  margin: 10%;
 }
 div#slider figure img {
   width: 20%;
@@ -125,7 +130,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite;
+  animation: 20s slidy infinite;
 }
 
 /* ----------------------------DESKTOP---------------------------- */
@@ -141,10 +146,6 @@ div#slider figure {
 
   #overskrift {
     padding-bottom: 4rem;
-  }
-
-  .box1 {
-    margin-top: 2rem;
   }
 
   .box2 {
