@@ -35,7 +35,7 @@ footer p {
   background-color: var(--secondary);
   padding: 10px;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1300px;
 }
 
 .box33 {
@@ -118,7 +118,7 @@ footer p {
   }
 
   .box01 {
-    height: 700px;
+    height: 650px;
     padding: 30px;
     width: 100vw;
   }
@@ -143,20 +143,21 @@ footer p {
 
   .lottie {
     width: 400px;
-    height: 600px;
+    height: 820px;
     margin: 0 auto;
   }
 
   .lottiefile {
-    height: 600px;
+    height: 800px;
     width: 600px;
+    margin: auto auto;
   }
 
   .text {
     font-size: 20px;
-    line-height: 2;
+    line-height: 2.5;
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto;
   }
 
   .box33 {
@@ -166,7 +167,7 @@ footer p {
 
   .centralkort {
     display: flex;
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
