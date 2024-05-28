@@ -28,9 +28,6 @@ h2 {
 
 /**FØRSTE BOKS**/
 .box1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
   background-color: #3b4b46;
   color: #ffffff;
 }
@@ -38,17 +35,16 @@ h2 {
 .text1 {
   place-content: center;
   margin: 10%;
+  line-height: 2rem;
 }
 
 .pic1 {
   margin: 10%;
+  padding-bottom: 5%;
 }
 
 /**ANDEN BOKS**/
 .box2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
   background-color: #3b4b46;
   color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
@@ -61,6 +57,7 @@ h2 {
 ul {
   margin: 50px;
   font-size: 1rem;
+  padding-bottom: 5%;
 }
 
 .heading {
@@ -77,20 +74,24 @@ ul {
   background-color: #3b4b46;
   color: #ffffff;
   text-align: center;
-  padding-bottom: 10%;
+  margin: 10%;
 }
 
 /**TREDJE BOKS**/
 .box3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
   margin-bottom: 5%;
+}
+
+.pic_behind_text {
+  background-image: url(billeder/kaffekop_tegning.svg);
+  background-repeat: no-repeat;
+  place-content: center;
+  margin: 10%;
 }
 
 .pic2 {
   margin-left: 10%;
-  margin-top: 10%;
+  margin-right: 10%;
 }
 
 /**TREDJE BOKS**/
@@ -111,29 +112,38 @@ ul {
   0% {
     left: 0%;
   }
-  20% {
+  15% {
     left: 0%;
   }
-  25% {
+  20% {
     left: -100%;
   }
-  45% {
+  35% {
     left: -100%;
   }
-  50% {
+  40% {
     left: -200%;
   }
-  70% {
+  55% {
     left: -200%;
+  }
+  60% {
+    left: -300%;
   }
   75% {
     left: -300%;
   }
-  95% {
-    left: -300%;
-  }
-  100% {
+  80% {
     left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+  110% {
+    left: -500%;
+  }
+  115% {
+    left: -500%;
   }
 }
 
@@ -152,11 +162,67 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite;
+  animation: 10s slidy infinite;
 }
 
 .show {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  margin: 5%;
+}
+
+/*****DESKTOP*****/
+
+@media (min-width: 768px) {
+  .box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #3b4b46;
+    color: #ffffff;
+  }
+
+  .text1 {
+    place-content: center;
+    margin: 10%;
+    line-height: 2rem;
+    padding-left: 10%;
+  }
+
+  .box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #3b4b46;
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 5%;
+    margin-top: -5%;
+    padding-top: 5%;
+    place-items: center;
+  }
+
+  .pic2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .box3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 5%;
+  }
+
+  .pic_behind_text {
+    background-image: url(billeder/kaffekop_tegning.svg);
+    background-repeat: no-repeat;
+    place-content: center;
+  }
+
+  .show {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
 }
