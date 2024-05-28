@@ -27,7 +27,6 @@ footer p {
   background-color: var(--secondary);
   width: 100%;
   padding-top: 10px;
-  width: 100vw;
   margin: 0;
 }
 
@@ -77,23 +76,19 @@ footer p {
   .box22 {
     margin-top: 30px;
     height: auto;
+    overflow: hidden;
   }
 
   .lottie {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    pointer-events: none;
-    margin-left: -40px;
-    scale: 52%;
-    width: 100%;
-    object-fit: contain;
-    position: relative;
+    display: grid;
+    margin: auto auto;
+    place-items: center;
   }
 
-  .tegning {
+  .lottiefile {
+    height: 240px;
+    width: 170px;
+    margin: 0;
   }
 
   .text {
@@ -102,6 +97,7 @@ footer p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 10px;
   }
 
   .box33 {
@@ -120,7 +116,7 @@ footer p {
   .box01 {
     height: 650px;
     padding: 30px;
-    width: 100vw;
+    box-sizing: border-box;
   }
 
   video {
@@ -137,7 +133,6 @@ footer p {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     display: block;
   }
 
@@ -145,12 +140,16 @@ footer p {
     width: 400px;
     height: 820px;
     margin: 0 auto;
+    align-self: center;
+    align-items: center;
   }
 
   .lottiefile {
     height: 800px;
     width: 600px;
     margin: auto auto;
+    align-self: center;
+    align-items: center;
   }
 
   .text {
