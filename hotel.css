@@ -13,12 +13,6 @@ h1 {
   text-align: center;
 }
 
-p {
-  font-family: "josefin-sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
 .box1 {
   background-color: var(--secondary);
   width: 100%;
@@ -69,6 +63,9 @@ p {
 }
 
 .tekst1 {
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   padding: 2rem 0 2rem 0;
   line-height: 1.5rem;
   color: white;
@@ -79,6 +76,9 @@ p {
 }
 
 .tekst2 {
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   padding: 2rem 0 2rem 0;
   line-height: 1.5rem;
   color: white;
@@ -157,7 +157,7 @@ div#slider figure {
     margin: 5rem;
     font-size: 24px;
     font-family: "josefin-sans", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     line-height: 2rem;
     color: white;
@@ -180,7 +180,7 @@ div#slider figure {
     margin: 5rem;
     font-size: 24px;
     font-family: "josefin-sans", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     line-height: 2rem;
     color: white;
