@@ -28,6 +28,8 @@ main {
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "josefin-sans", sans-serif;
+  color: #3b4b46;
 }
 
 .form-container {
@@ -39,7 +41,7 @@ main {
 }
 
 form {
-  background-color: white;
+  background-color: #e5e3db;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
