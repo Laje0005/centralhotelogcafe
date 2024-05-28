@@ -81,12 +81,12 @@ footer p {
   }
 
   .lottie {
-    position: absolute; /* Position absolutely within .grid_1-1 */
+    position: absolute;
     top: 0;
     left: 0;
-    width: 50%; /* Cover only the left column */
+    width: 50%;
     height: 100%;
-    pointer-events: none; /* Ensure it doesn't interfere with other elements */
+    pointer-events: none;
     margin-left: -40px;
     scale: 52%;
   }
