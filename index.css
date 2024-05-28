@@ -35,6 +35,7 @@ footer p {
   padding: 10px;
   margin: 0 auto;
   max-width: 1300px;
+  overflow: hidden;
 }
 
 .box33 {
@@ -81,7 +82,6 @@ footer p {
 
   .lottie {
     display: grid;
-    margin: auto auto;
     place-items: center;
   }
 
@@ -137,26 +137,23 @@ footer p {
   }
 
   .lottie {
-    width: 400px;
-    height: 820px;
-    margin: 0 auto;
-    align-self: center;
-    align-items: center;
+    display: grid;
+    justify-self: center; /* Centrerer elementet horisontalt */
+    align-self: center; /* Centrerer elementet vertikalt */
   }
 
   .lottiefile {
     height: 800px;
     width: 600px;
-    margin: auto auto;
-    align-self: center;
-    align-items: center;
+    justify-self: center; /* Centrerer elementet horisontalt */
+    align-self: center; /* Centrerer elementet vertikalt */
   }
 
   .text {
     font-size: 20px;
     line-height: 2.5;
     text-align: center;
-    margin: auto auto;
+    margin: auto;
   }
 
   .box33 {
