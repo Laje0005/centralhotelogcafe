@@ -33,7 +33,7 @@ p {
 }
 
 .grid_1 {
-  margin: 1rem;
+  margin: 0 1rem 1rem 1rem;
   text-align: justify;
   padding-bottom: 2rem;
 }
@@ -141,10 +141,6 @@ div#slider figure {
 
   #overskrift {
     padding-bottom: 4rem;
-  }
-
-  .box1 {
-    margin-top: 2rem;
   }
 
   .box2 {
