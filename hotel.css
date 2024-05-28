@@ -38,6 +38,10 @@ p {
   padding-bottom: 2rem;
 }
 
+.hotelbillede {
+  margin: 10%;
+}
+
 #hotel {
   width: 100%;
 }
@@ -112,6 +116,7 @@ p {
 
 div#slider {
   overflow: hidden;
+  margin: 10%;
 }
 div#slider figure img {
   width: 20%;

@@ -45,7 +45,7 @@ p {
   color: white;
   font-family: "josefin-sans", sans-serif;
   font-weight: 300;
-  font-style: italic;
+  font-style: normal;
 }
 footer p {
   color: black;
@@ -53,12 +53,27 @@ footer p {
 #area {
   width: 100%;
 }
+
+.areabilled {
+  margin: 10%;
+}
+
 #hotel {
   width: 100%;
 }
+
+.hotelbilled {
+  margin: 10%;
+}
+
 #cafe {
   width: 100%;
 }
+
+.cafebilled {
+  margin: 10%;
+}
+
 .tekst1 {
   grid-column: 2 / 2;
   margin: 5rem;
