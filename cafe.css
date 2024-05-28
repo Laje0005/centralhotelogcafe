@@ -112,29 +112,38 @@ ul {
   0% {
     left: 0%;
   }
-  20% {
+  15% {
     left: 0%;
   }
-  25% {
+  20% {
     left: -100%;
   }
-  45% {
+  35% {
     left: -100%;
   }
-  50% {
+  40% {
     left: -200%;
   }
-  70% {
+  55% {
     left: -200%;
+  }
+  60% {
+    left: -300%;
   }
   75% {
     left: -300%;
   }
-  95% {
-    left: -300%;
-  }
-  100% {
+  80% {
     left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+  110% {
+    left: -500%;
+  }
+  115% {
+    left: -500%;
   }
 }
 
@@ -153,7 +162,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite;
+  animation: 10s slidy infinite;
 }
 
 .show {
