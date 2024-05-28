@@ -41,15 +41,11 @@ h3 {
   font-weight: 700;
   font-style: normal;
 }
-p {
-  color: white;
-  font-family: "josefin-sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
+
 footer p {
   color: black;
 }
+
 #area {
   width: 100%;
 }
@@ -79,7 +75,7 @@ footer p {
   margin: 5rem;
   font-size: 18px;
   font-family: "josefin-sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 2rem;
   color: white;
@@ -89,7 +85,7 @@ footer p {
   margin: 5rem;
   font-size: 18px;
   font-family: "josefin-sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 2rem;
   color: white;
@@ -99,7 +95,7 @@ footer p {
   margin: 5rem;
   font-size: 18px;
   font-family: "josefin-sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 2rem;
   color: white;
