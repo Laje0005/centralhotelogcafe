@@ -1,42 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="general.css" />
-    <link rel="stylesheet" href="booking.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/hcg3snm.css" />
-    <link rel="icon" type="image/x-icon" href="/billeder/logo.svg" />
-    <title>Booking</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <nav>
-        <a href="index.html" class="logo" id="logo_mobil"
-          ><img src="billeder/logo.svg" alt="forside"
-        /></a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"
-          ><span class="navicon"></span
-        ></label>
-        <ul class="menu">
-          <li><a href="hotel.html">HOTEL</a></li>
-          <li><a href="cafe.html">CAFÉ</a></li>
-          <li>
-            <a href="index.html" id="logo"
-              ><img src="billeder/logo.svg" alt="forside"
-            /></a>
-          </li>
-          <li><a href="booking.html">BOOKING</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-        </ul>
-      </nav>
-      <div class="streg1"></div>
-      <div class="streg2"></div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="general.css" />
+  <link rel="stylesheet" href="booking.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/hcg3snm.css" />
+  <link rel="icon" type="image/x-icon" href="/billeder/logo.svg" />
+  <title>Booking</title>
+</head>
 
+<<<<<<< HEAD
     <main>
       <div class="content-container">
         <div class="grid-container">
@@ -62,34 +38,74 @@
           <div class="grid-item">
             <img src="billeder/booking.baggrund.jpg" alt="Billede 3" />
           </div>
+=======
+<body>
+  <header class="header">
+    <nav>
+      <a href="index.html" class="logo" id="logo_mobil"><img src="billeder/logo.svg" alt="forside" /></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="hotel.html">HOTEL</a></li>
+        <li><a href="cafe.html">CAFÉ</a></li>
+        <li>
+          <a href="index.html" id="logo"><img src="billeder/logo.svg" alt="forside" /></a>
+        </li>
+        <li><a href="booking.html">BOOKING</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </nav>
+    <div class="streg1"></div>
+    <div class="streg2"></div>
+  </header>
+
+  <main>
+    <div class="content-container">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="billeder/booking1.jpg" alt="Billede 1" />
         </div>
-        <div class="form-container">
-          <form id="bookingForm">
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required />
-            </div>
+        <div class="grid-item">
+          <p>
+            What is included: <br /><br />
+            Coffee and Tea at the Central Café during your stay<br />
+            A drink at restaurant Granola<br /><br /><br />
+            For more details, or possible additions to your stay please see:
+          </p>
+>>>>>>> df86ff220c49645a6ed94bb71b32cf61b5e1bb79
+        </div>
+        <div class="grid-item">
+          <img src="billeder/booking.baggrund.jpg" alt="Billede 3" />
+        </div>
+      </div>
+      <div class="form-container">
+        <form id="bookingForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
 
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required />
-            </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
 
-            <div class="form-group">
-              <label for="phone">Phone number:</label>
-              <input type="tel" id="phone" name="phone" required />
-            </div>
+          <div class="form-group">
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
 
-            <div class="form-group">
-              <label for="date">Date:</label>
-              <input type="date" id="date" name="date" required />
-            </div>
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
 
-            <div class="form-group">
-              <label for="time">Time of avrival:</label>
-              <input type="time" id="time" name="time" required />
-            </div>
+          <div class="form-group">
+            <label for="time">Time of avrival:</label>
+            <input type="time" id="time" name="time" required />
+          </div>
 
+<<<<<<< HEAD
             <div class="form-group">
               <label for="guests">Number of guests (max 2):</label>
               <input
@@ -101,36 +117,44 @@
                 required
               />
             </div>
+=======
+          <div class="form-group">
+            <label for="guests">Number of guests:</label>
+            <input type="number" id="guests" name="guests" required />
+          </div>
+>>>>>>> df86ff220c49645a6ed94bb71b32cf61b5e1bb79
 
-            <div class="form-group">
-              <label for="message">Message:</label>
-              <textarea id="message" name="message"></textarea>
-            </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
 
-            <div class="form-group">
-              <button type="submit">Book Now</button>
-            </div>
-          </form>
-        </div>
+          <div class="form-group">
+            <button type="submit">Book Now</button>
+          </div>
+        </form>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <footer>
-      <div class="streg1"></div>
-      <div class="streg2"></div>
-      <div class="footer_tekst">
-        <p id="footer_overskrift">© CENTRAL HOTEL & CAFÈ</p>
+  <footer>
+    <div class="streg1"></div>
+    <div class="streg2"></div>
+    <div class="footer_tekst">
+      <p id="footer_overskrift">© CENTRAL HOTEL & CAFÈ</p>
+      <br />
+      <div class="kontaktinfo">
+        <p>Tullinsgade 1, 1610 København V, Denmark</p>
         <br />
-        <div class="kontaktinfo">
-          <p>Tullinsgade 1, 1610 København V, Denmark</p>
-          <br />
-          <p>For contact please call:</p>
-          <p>+45 33 21 00 95</p>
-          <br />
-          <p>or write to mail:</p>
-          <p id="mail">mail@centralhotelogcafe.dk</p>
-        </div>
+        <p>For contact please call:</p>
+        <p>+45 33 21 00 95</p>
+        <br />
+        <p>or write to mail:</p>
+        <p id="mail">mail@centralhotelogcafe.dk</p>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+  <script src="login.js"></script>
+</body>
+
 </html>

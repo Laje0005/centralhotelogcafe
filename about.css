@@ -41,30 +41,41 @@ h3 {
   font-weight: 700;
   font-style: normal;
 }
-p {
-  color: white;
-  font-family: "josefin-sans", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
+
 footer p {
   color: black;
 }
+
 #area {
   width: 100%;
 }
+
+.areabilled {
+  margin: 10%;
+}
+
 #hotel {
   width: 100%;
 }
+
+.hotelbilled {
+  margin: 10%;
+}
+
 #cafe {
   width: 100%;
 }
+
+.cafebilled {
+  margin: 10%;
+}
+
 .tekst1 {
   grid-column: 2 / 2;
   margin: 5rem;
   font-size: 18px;
   font-family: "josefin-sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 2rem;
   color: white;
@@ -74,7 +85,7 @@ footer p {
   margin: 5rem;
   font-size: 18px;
   font-family: "josefin-sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 2rem;
   color: white;
@@ -84,7 +95,7 @@ footer p {
   margin: 5rem;
   font-size: 18px;
   font-family: "josefin-sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 2rem;
   color: white;
