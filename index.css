@@ -17,6 +17,8 @@ h1 {
 p {
   color: white;
   font-family: "josefin-sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 footer p {
