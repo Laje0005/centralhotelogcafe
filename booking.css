@@ -45,6 +45,7 @@ form {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
 }
 
 .form-group {
@@ -79,7 +80,7 @@ button:hover {
   background-color: #36725f;
 }
 
-a {
+#link {
   font-family: "josefin-sans", sans-serif;
   font-size: 1rem;
   color: #3b4b46;
